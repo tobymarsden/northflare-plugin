@@ -1,6 +1,6 @@
 {
   "name": "northflare",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Build a custom app for your Shopify store with your own AI, and have Northflare host it.",
   "author": { "name": "Northflare" },
   "homepage": "https://northflare.dev"
