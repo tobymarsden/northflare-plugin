@@ -10,10 +10,13 @@ whom are not developers. Its tools come from the Northflare connector that
 this plugin adds.
 
 1. **Sign in.** If Northflare's tools (`status`, `draft_plan`) are not
-   available, the connector is waiting for the person to sign in. Tell
-   them in plain words: in Claude Code, open `/mcp`, choose `northflare`
-   and sign in; in Codex, sign in when it asks, or run
-   `codex mcp login northflare`. Then start a new conversation.
+   available, the connector is waiting for the person to sign in. Start
+   the sign-in yourself; never ask them to type a command. In Codex, run
+   `codex mcp login northflare`. In Claude Code, use the authenticate
+   tool your app offers for the `northflare` server. Either opens
+   Northflare's sign-in page in their browser: tell them to press
+   **Sign in** there, then to start a new conversation. If you can do
+   neither, tell them where your app shows Northflare's sign-in button.
 2. **Their apps.** Call `status`. It shows their apps, or that they have
    none yet.
 3. **The questions.** Ask at most four, in plain words: what the app
