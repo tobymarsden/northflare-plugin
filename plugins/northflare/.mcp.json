@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "northflare": {
+      "type": "http",
+      "url": "https://def-zus-pit-commissioner.trycloudflare.com/mcp"
+    }
+  }
+}

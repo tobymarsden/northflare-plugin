@@ -1,0 +1,12 @@
+{
+  "name": "northflare",
+  "interface": { "displayName": "Northflare" },
+  "plugins": [
+    {
+      "name": "northflare",
+      "source": { "source": "local", "path": "./plugins/northflare" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

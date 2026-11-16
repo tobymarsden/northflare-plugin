@@ -1,0 +1,11 @@
+{
+  "name": "northflare",
+  "owner": { "name": "Northflare" },
+  "plugins": [
+    {
+      "name": "northflare",
+      "source": "./plugins/northflare",
+      "description": "Build a custom app for your Shopify store with your own AI, and have Northflare host it."
+    }
+  ]
+}

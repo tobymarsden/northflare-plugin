@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "northflare": {
+      "type": "streamable-http",
+      "url": "https://def-zus-pit-commissioner.trycloudflare.com/mcp"
+    }
+  }
+}
